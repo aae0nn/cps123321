@@ -1,0 +1,85 @@
+﻿  Source.cpp
+C:\Users\HOME\source\repos\Project1\Project1\Source.cpp(8,2): error C2678: бинарный ">>": не найден оператор, принимающий левый операнд типа "std::ostream" (или приемлемое преобразование отсутствует)
+  C:\Users\HOME\source\repos\Project1\Project1\Source.cpp(8,2):
+  может быть "встроенный оператор C++ >>(int, int)"
+  	C:\Users\HOME\source\repos\Project1\Project1\Source.cpp(8,2):
+  	">>": невозможно преобразовать аргумент 1 из "std::ostream" в "int"
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\istream(901,9):
+  или       "_Istr &&std::operator >>(_Istr &&,_Ty &&)"
+  	C:\Users\HOME\source\repos\Project1\Project1\Source.cpp(8,2):
+  	"_Istr &&std::operator >>(_Istr &&,_Ty &&)": не удается вывести аргумент шаблон для "__formal"
+  		C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\istream(900,102):
+  		"<template-parameter>": невозможно создать указатель на ссылку
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\istream(888,31):
+  или       "std::basic_istream<char,_Traits> &std::operator >>(std::basic_istream<char,_Traits> &,unsigned char &)"
+  	C:\Users\HOME\source\repos\Project1\Project1\Source.cpp(8,2):
+  	'std::basic_istream<char,_Traits> &std::operator >>(std::basic_istream<char,_Traits> &,unsigned char &)': не удалось вывести аргумент шаблон для 'std::basic_istream<char,_Traits> &' из 'std::ostream'
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\istream(882,31):
+  или       "std::basic_istream<char,_Traits> &std::operator >>(std::basic_istream<char,_Traits> &,signed char &)"
+  	C:\Users\HOME\source\repos\Project1\Project1\Source.cpp(8,2):
+  	'std::basic_istream<char,_Traits> &std::operator >>(std::basic_istream<char,_Traits> &,signed char &)': не удалось вывести аргумент шаблон для 'std::basic_istream<char,_Traits> &' из 'std::ostream'
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\istream(859,32):
+  или       "std::basic_istream<_Elem,_Traits> &std::operator >>(std::basic_istream<_Elem,_Traits> &,_Elem &)"
+  	C:\Users\HOME\source\repos\Project1\Project1\Source.cpp(8,2):
+  	'std::basic_istream<_Elem,_Traits> &std::operator >>(std::basic_istream<_Elem,_Traits> &,_Elem &)': не удалось вывести аргумент шаблон для 'std::basic_istream<_Elem,_Traits> &' из 'std::ostream'
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\istream(853,31):
+  или       "std::basic_istream<char,_Traits> &std::operator >>(std::basic_istream<char,_Traits> &,unsigned char *)"
+  	C:\Users\HOME\source\repos\Project1\Project1\Source.cpp(8,2):
+  	'std::basic_istream<char,_Traits> &std::operator >>(std::basic_istream<char,_Traits> &,unsigned char *)': не удалось вывести аргумент шаблон для 'std::basic_istream<char,_Traits> &' из 'std::ostream'
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\istream(848,31):
+  или       "std::basic_istream<char,_Traits> &std::operator >>(std::basic_istream<char,_Traits> &,signed char *)"
+  	C:\Users\HOME\source\repos\Project1\Project1\Source.cpp(8,2):
+  	'std::basic_istream<char,_Traits> &std::operator >>(std::basic_istream<char,_Traits> &,signed char *)': не удалось вывести аргумент шаблон для 'std::basic_istream<char,_Traits> &' из 'std::ostream'
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\istream(843,32):
+  или       "std::basic_istream<_Elem,_Traits> &std::operator >>(std::basic_istream<_Elem,_Traits> &,_Elem *)"
+  	C:\Users\HOME\source\repos\Project1\Project1\Source.cpp(8,2):
+  	'std::basic_istream<_Elem,_Traits> &std::operator >>(std::basic_istream<_Elem,_Traits> &,_Elem *)': не удалось вывести аргумент шаблон для 'std::basic_istream<_Elem,_Traits> &' из 'std::ostream'
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xstring(5179,32):
+  или       "std::basic_istream<_Elem,_Traits> &std::operator >>(std::basic_istream<_Elem,_Traits> &,std::basic_string<_Elem,_Traits,_Alloc> &)"
+  	C:\Users\HOME\source\repos\Project1\Project1\Source.cpp(8,2):
+  	'std::basic_istream<_Elem,_Traits> &std::operator >>(std::basic_istream<_Elem,_Traits> &,std::basic_string<_Elem,_Traits,_Alloc> &)': не удалось вывести аргумент шаблон для 'std::basic_istream<_Elem,_Traits> &' из 'std::ostream'
+  C:\Users\HOME\source\repos\Project1\Project1\Source.cpp(8,2):
+  при попытке сопоставить список аргументов "(std::ostream, bool)"
+  
+C:\Users\HOME\source\repos\Project1\Project1\Source.cpp(9,2): error C2678: бинарный ">>": не найден оператор, принимающий левый операнд типа "std::ostream" (или приемлемое преобразование отсутствует)
+  C:\Users\HOME\source\repos\Project1\Project1\Source.cpp(9,2):
+  может быть "встроенный оператор C++ >>(int, int)"
+  	C:\Users\HOME\source\repos\Project1\Project1\Source.cpp(9,2):
+  	">>": невозможно преобразовать аргумент 1 из "std::ostream" в "int"
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\istream(901,9):
+  или       "_Istr &&std::operator >>(_Istr &&,_Ty &&)"
+  	C:\Users\HOME\source\repos\Project1\Project1\Source.cpp(9,2):
+  	"_Istr &&std::operator >>(_Istr &&,_Ty &&)": не удается вывести аргумент шаблон для "__formal"
+  		C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\istream(900,102):
+  		"<template-parameter>": невозможно создать указатель на ссылку
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\istream(888,31):
+  или       "std::basic_istream<char,_Traits> &std::operator >>(std::basic_istream<char,_Traits> &,unsigned char &)"
+  	C:\Users\HOME\source\repos\Project1\Project1\Source.cpp(9,2):
+  	'std::basic_istream<char,_Traits> &std::operator >>(std::basic_istream<char,_Traits> &,unsigned char &)': не удалось вывести аргумент шаблон для 'std::basic_istream<char,_Traits> &' из 'std::ostream'
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\istream(882,31):
+  или       "std::basic_istream<char,_Traits> &std::operator >>(std::basic_istream<char,_Traits> &,signed char &)"
+  	C:\Users\HOME\source\repos\Project1\Project1\Source.cpp(9,2):
+  	'std::basic_istream<char,_Traits> &std::operator >>(std::basic_istream<char,_Traits> &,signed char &)': не удалось вывести аргумент шаблон для 'std::basic_istream<char,_Traits> &' из 'std::ostream'
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\istream(859,32):
+  или       "std::basic_istream<_Elem,_Traits> &std::operator >>(std::basic_istream<_Elem,_Traits> &,_Elem &)"
+  	C:\Users\HOME\source\repos\Project1\Project1\Source.cpp(9,2):
+  	'std::basic_istream<_Elem,_Traits> &std::operator >>(std::basic_istream<_Elem,_Traits> &,_Elem &)': не удалось вывести аргумент шаблон для 'std::basic_istream<_Elem,_Traits> &' из 'std::ostream'
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\istream(853,31):
+  или       "std::basic_istream<char,_Traits> &std::operator >>(std::basic_istream<char,_Traits> &,unsigned char *)"
+  	C:\Users\HOME\source\repos\Project1\Project1\Source.cpp(9,2):
+  	'std::basic_istream<char,_Traits> &std::operator >>(std::basic_istream<char,_Traits> &,unsigned char *)': не удалось вывести аргумент шаблон для 'std::basic_istream<char,_Traits> &' из 'std::ostream'
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\istream(848,31):
+  или       "std::basic_istream<char,_Traits> &std::operator >>(std::basic_istream<char,_Traits> &,signed char *)"
+  	C:\Users\HOME\source\repos\Project1\Project1\Source.cpp(9,2):
+  	'std::basic_istream<char,_Traits> &std::operator >>(std::basic_istream<char,_Traits> &,signed char *)': не удалось вывести аргумент шаблон для 'std::basic_istream<char,_Traits> &' из 'std::ostream'
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\istream(843,32):
+  или       "std::basic_istream<_Elem,_Traits> &std::operator >>(std::basic_istream<_Elem,_Traits> &,_Elem *)"
+  	C:\Users\HOME\source\repos\Project1\Project1\Source.cpp(9,2):
+  	'std::basic_istream<_Elem,_Traits> &std::operator >>(std::basic_istream<_Elem,_Traits> &,_Elem *)': не удалось вывести аргумент шаблон для 'std::basic_istream<_Elem,_Traits> &' из 'std::ostream'
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xstring(5179,32):
+  или       "std::basic_istream<_Elem,_Traits> &std::operator >>(std::basic_istream<_Elem,_Traits> &,std::basic_string<_Elem,_Traits,_Alloc> &)"
+  	C:\Users\HOME\source\repos\Project1\Project1\Source.cpp(9,2):
+  	'std::basic_istream<_Elem,_Traits> &std::operator >>(std::basic_istream<_Elem,_Traits> &,std::basic_string<_Elem,_Traits,_Alloc> &)': не удалось вывести аргумент шаблон для 'std::basic_istream<_Elem,_Traits> &' из 'std::ostream'
+  C:\Users\HOME\source\repos\Project1\Project1\Source.cpp(9,2):
+  при попытке сопоставить список аргументов "(std::ostream, bool)"
+  
